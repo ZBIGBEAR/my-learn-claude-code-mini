@@ -94,4 +94,11 @@ TOOL_HANDLERS = {
     "read_file":  lambda **kw: run_read(kw["path"], kw.get("limit")),
     "write_file": lambda **kw: run_write(kw["path"], kw["content"]),
     "edit_file":  lambda **kw: run_edit(kw["path"], kw["old_text"], kw["new_text"]),
+    "compact":    lambda **kw: compact_history(),
 }
+
+def compact_history():
+    return "Compacting conversation..."
+
+def SetTool(name,args):
+    TOOL_HANDLERS[name] = args
