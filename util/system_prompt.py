@@ -28,6 +28,7 @@ class SystemPromptBuilder:
             f"You are a coding agent operating in {self.workdir}.\n"
             "Use the provided tools to explore, read, write, edit files, plan and track work.\n"
             "Always verify before assuming. Prefer reading files over guessing."
+            "Use background_run for long-running commands."
         )
     
     # -- Section 2: Tool listings --
