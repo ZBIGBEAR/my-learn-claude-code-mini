@@ -7,5 +7,10 @@ llm/__pycache__/*
 .transcripts/*
 util/__pycache__/*
 .team/*
-.runtime-tasks/*
 .claude/*
+.runtime_tasks/*
+docs/*
+frontend/*
+backend/*
+.claude_plugin/*
+.worktree/*
