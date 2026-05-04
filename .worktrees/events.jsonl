@@ -1,5 +1,0 @@
-{"event": "worktree.create.before", "ts": 1777888734.2370481, "worktree": "frontend"}
-{"event": "worktree.create.after", "ts": 1777888734.3201432, "worktree": "frontend"}
-{"event": "worktree.create.before", "ts": 1777888734.320338, "worktree": "backend"}
-{"event": "worktree.create.after", "ts": 1777888734.356172, "worktree": "backend"}
-{"event": "worktree.enter", "ts": 1777888987.065803, "worktree": "backend", "path": "/Users/liyuping/Workspace/claude/my-learn-claude-code-mini/.worktrees/backend"}
